@@ -84,15 +84,8 @@
 		D63C8F781ADC408E005498DE /* ControllingSource */ = {
 			isa = PBXGroup;
 			children = (
-				D63C8F7D1ADC408E005498DE /* AppDelegate.h */,
-				D63C8F7E1ADC408E005498DE /* AppDelegate.m */,
-				D63C8F801ADC408E005498DE /* MasterViewController.h */,
-				D63C8F811ADC408E005498DE /* MasterViewController.m */,
-				D63C8F831ADC408E005498DE /* DetailViewController.h */,
-				D63C8F841ADC408E005498DE /* DetailViewController.m */,
-				D63C8F861ADC408E005498DE /* Main.storyboard */,
-				D63C8F891ADC408E005498DE /* Images.xcassets */,
-				D63C8F8B1ADC408E005498DE /* LaunchScreen.xib */,
+				D63C8FA31ADC40D4005498DE /* Resources */,
+				D63C8FA21ADC40A1005498DE /* View Controllers */,
 				D63C8F791ADC408E005498DE /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -101,6 +94,8 @@
 		D63C8F791ADC408E005498DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D63C8F7D1ADC408E005498DE /* AppDelegate.h */,
+				D63C8F7E1ADC408E005498DE /* AppDelegate.m */,
 				D63C8F7A1ADC408E005498DE /* Info.plist */,
 				D63C8F7B1ADC408E005498DE /* main.m */,
 			);
@@ -122,6 +117,27 @@
 				D63C8F971ADC408E005498DE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D63C8FA21ADC40A1005498DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D63C8F801ADC408E005498DE /* MasterViewController.h */,
+				D63C8F811ADC408E005498DE /* MasterViewController.m */,
+				D63C8F831ADC408E005498DE /* DetailViewController.h */,
+				D63C8F841ADC408E005498DE /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D63C8FA31ADC40D4005498DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D63C8F861ADC408E005498DE /* Main.storyboard */,
+				D63C8F891ADC408E005498DE /* Images.xcassets */,
+				D63C8F8B1ADC408E005498DE /* LaunchScreen.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
