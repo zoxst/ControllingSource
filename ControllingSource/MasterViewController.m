@@ -29,6 +29,9 @@
     self.navigationItem.rightBarButtonItem = addButton;
     
     self.view.backgroundColor = [UIColor blueColor];
+    
+    self.view.layer.borderWidth = 2.f;
+    
 }
 
 - (void)didReceiveMemoryWarning {
